@@ -1,0 +1,133 @@
+        <!-- DOM OF FURMULAIRE-->
+         <style>
+  .fa-times{margin-top: 13px;  color: #fff; }
+  .fa-times:before {
+      content: "\f00d";
+      font-size: 23px; 
+      cursor: pointer;
+  }
+  .fa-times:hover{
+    color: #ffe484;
+  }
+  
+  /* CSS */
+  
+  /* CSS */
+  .button-2 {
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 10px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    background: #fff;
+    padding: 5px;
+  }
+    .user-des {
+    position: absolute;
+    height: auto;
+    top: 50%;
+    width: 140px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #333;
+    margin-left: 2px;
+  }
+  #user-file:focus{overflow: none;}
+  .pi{border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer; text-decoration: none; color: black;}
+    .pi-active{background-color: #ffe484; border: 1px solid;  color: black;}
+    .pi-hover{background-color: #ddd; border: 1px solid;  color: black;}
+     a:hover{ color: black;}
+     .img-fluid-png{
+      height: auto;
+      width: 32px;
+      padding-top: 10px;
+     }
+     .fi-1{width: 27rem;}
+     .fi{width: 470px;}
+  @media (min-width:768px) and (max-width:990px) {
+    .fi{width: 383px; margin-left: 5px;}
+    .fi-1{width: 22rem;
+    margin-left: 10px;}
+  }
+ @media (max-width:768px) {
+    .t{min-width: 0%;}
+    .bo{justify-content: center;}
+    .fi{margin-top: 20px;}
+ } 
+ .fma{top: 64px;
+    position: absolute;
+    left: 243px;
+    font-size: 35px;}
+    .val{position: absolute;
+    font-size: 10px;
+    left: 8px;
+    top: 15px;
+    color: #fff;}
+    input[type='color'] {
+  padding: 0;
+  width: 150%;
+  height: 150%;
+  margin: -25%;
+}
+
+.cp_wrapper {
+  overflow: hidden;
+  width: 2em;
+  height: 2em;
+  /* optional formatting below here */
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px 0px grey;
+  margin: 1em;
+}
+.font-1{font-family: Bebas Neue;}
+.font-2{font-family: Permanent Marker;}
+.font-3{font-family: Chakra Petch;}
+.font-4{font-family: Wendy One;}
+.font-5{font-family: Yellowtail;}
+.font-6{font-family: Monoton;}
+.font-7{font-family: Meow Script;}
+.font-8{font-family: Audiowide;}
+.font-9{font-family:Lilita One;}
+.font-10{font-family: Road Rage;}
+.font-11{font-family: Bungee Shade;}
+.font-12{font-family: Salsa;}
+.font-13{font-family: Londrina Outline;}
+.font-14{font-family: Train One;}
+.font-15{font-family: Ewert;}
+.como button{background-color: #7952b3;
+    color: #ffff;
+    width: 36%;}
+@media  (max-width:768px) {
+  .como{display: flex; justify-content: center;}
+}
+@media (max-width:590px) {
+  .como{display: flex; justify-content: center;}
+  .como button{width: 80%;}
+}
+footer{padding-bottom: 90px;}
+.fab{ font-size: 35px;}
+.fo{margin-left: 3%;  padding-top: 2%;}
+.f-p{font-weight: 700; font-size: 30px;}
+.col-6 .row .col-3 a{color: var(--bs-body-color);}
+.co::after{opacity: 0;}
+.p{text-decoration: none;}
