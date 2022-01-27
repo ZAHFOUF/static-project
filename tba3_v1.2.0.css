@@ -4,7 +4,7 @@ body{background-color: #f2f2f2; overflow-x: hidden;font-family: 'Cairo', sans-se
 /* header and nav */
 .navbar-light .navbar-brand{margin-left: 2%; color: #fff; }
 .navbar-light .navbar-brand img{width: 80px; margin-right: -32px;}
-.d-flex { display: flex!important; margin-left: 10%; width: 50%; margin-right: 5%;}
+nav .d-flex { display: flex!important; margin-left: 10%; width: 50%; margin-right: 5%;}
 .navbar-expand-md .navbar-nav .nav-link{font-size: 14px;}
 @media (min-width: 768px){
 .navbar-expand-md .navbar-nav .nav-link {
